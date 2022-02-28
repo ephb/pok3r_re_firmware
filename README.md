@@ -1,3 +1,6 @@
+### This Fork
+This fork is intended to extent the work of [ChaoticEnigma](https://github.com/ChaoticEnigma) to include newer Vortex models.
+
 # Vortex Keyboard Custom Firmware Project
 
 [![Travis-CI Badge](https://travis-ci.org/pok3r-custom/pok3r_re_firmware.svg?branch=master "Travis-CI Badge")](https://travis-ci.org/pok3r-custom/pok3r_re_firmware)
@@ -6,6 +9,7 @@
 this in my free time for fun, as such there are no guarantees of progress or success.*
 
 ### Scope
+
 This project includes the reverse engineering effort for the original keyboard firmwares on several
 keyboards, including:
 
@@ -15,6 +19,8 @@ keyboards, including:
     - Vortex CORE
     - Vortex Tester
     - Vortex RACE 3
+    - Vortex TAB90M (reason for this fork)
+    - Vortex ViBE (possibly after TAB90M)
 - KBParadise
     - V60 Mini
     - V80 TKL
@@ -50,6 +56,6 @@ loaded with `pok3rtool flash`.
 
 ## References
 [SpritesMods hacked a Cooler Master Quickfire Rapid-i](https://spritesmods.com/?art=rapidisnake),
-which uses a similar Holtek ARM microcontroller. I also think the firmware was written for that
+which uses a similar Holtek ARM microcontroller. ChaoticEnigma: I also think the firmware was written for that
 keyboard by the same people as the POK3R. His blog gave me some ideas when working on the POK3R,
 and I ended up coming to mostly the same conclusions as he did.
